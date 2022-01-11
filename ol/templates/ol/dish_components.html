@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Сотстав</title>
+</head>
+<body>
+    <h1>{{ dish_name }}</h1>
+    <ul>
+    {% for dish_component in dish_component_list %}
+        <li>{{ dish_component.name }}</li>
+    {% endfor %}
+    </ul>
+</body>
+</html>
